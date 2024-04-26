@@ -45,9 +45,9 @@ const HeroSection = () => {
           <Image
           src="/svg/myselfnew.png"
           alt='hero image'
-          className=' rounded-full '
-          width={300}
-          height={300}
+          className=' rounded-[50px] '
+          width={400}
+          height={400}
           />
           </div>
         </div>
