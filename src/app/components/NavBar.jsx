@@ -39,12 +39,18 @@ const NavBar = () => {
           />
         </Link>
         <div className="mobile-menu block md:hidden ">
-          { !navbarOpen ? (
-            <button onClick={()=> setNavbarOpen(true)} className="flex items-center px-3 py-2 border rounded border-slate-200 hover:text-white hover:border-white text-slate-200 ">
+          {!navbarOpen ? (
+            <button
+              onClick={() => setNavbarOpen(true)}
+              className="flex items-center px-3 py-2 border rounded border-slate-200 hover:text-white hover:border-white text-slate-200 "
+            >
               <Bars3Icon className="h-5 w-5" />
             </button>
           ) : (
-            <button onClick={()=> setNavbarOpen(false)} className="flex items-center px-3 py-2 border rounded border-slate-200 hover:text-white hover:border-white text-slate-200 ">
+            <button
+              onClick={() => setNavbarOpen(false)}
+              className="flex items-center px-3 py-2 border rounded border-slate-200 hover:text-white hover:border-white text-slate-200 "
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -72,7 +78,7 @@ const NavBar = () => {
           </ul>
         </div>
       </div>
-      {navbarOpen ? <MenuOverlay links={navLinks}/> : null}
+      {navbarOpen ? <MenuOverlay links={navLinks} /> : null}
     </nav>
   );
 };
