@@ -30,8 +30,9 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE]  text-base sm:text-lg mb-6 lg:text-xl ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum
-            dolor sit
+            Dynamic React Next.js portfolio featuring projects with
+            polished design, seamless navigation, and captivating interactivity,
+            showcasing top-tier frontend development skills.
           </p>
           <div>
             <button className="px-6 py-3 w-full sm:w-fit rounded-full bg-gradient-to-br from-orange-500 via-emerald-500 to-green-600 mr-4 bg-white hover:bg-gradient-to-br hover:from-green-500 hover:via-emerald-500 hover:to-orange-500 text-white">
@@ -51,6 +52,7 @@ const HeroSection = () => {
               src="/svg/myselfnew.png"
               alt="hero image"
               className=" rounded-[50px] "
+              priority={false} // {false} | {true}
               width={400}
               height={400}
             />

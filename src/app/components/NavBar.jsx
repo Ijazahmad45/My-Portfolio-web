@@ -33,7 +33,7 @@ const NavBar = () => {
           <Image
             src="/svg/ijazlogo.png"
             alt="hero image"
-            className=" rounded-[20px] "
+            className="rounded-[20px]"
             width={60}
             height={60}
           />
