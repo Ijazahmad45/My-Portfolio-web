@@ -8,7 +8,7 @@ const Tab_Data = [
     id: "skills",
     title: "Skills",
     content: (
-      <ul className="list-disc pl-2">
+      <ul className="list-disc pl-2 text-[#ADB7BE]">
         <li>Javascript</li>
         <li>React</li>
         <li>Next.JS</li>
@@ -24,11 +24,11 @@ const Tab_Data = [
     id: "education",
     title: "Education",
     content: (
-      <ul className="list-disc pl-2">
+      <ul className="list-disc pl-2 text-[#ADB7BE]">
         <li>
-          BS Computer Science from 
-          <br />Kohat University of Science and Technology
-          (2019-2023).
+          BS Computer Science from
+          <br />
+          Kohat University of Science and Technology (2019-2023).
         </li>
       </ul>
     ),
@@ -37,7 +37,7 @@ const Tab_Data = [
     id: "experience",
     title: "Experience",
     content: (
-      <ul className=" pl-2">
+      <ul className=" pl-2 text-[#ADB7BE]">
         <p>
           Seasoned frontend React Next.js developer with nearly 5 months of
           remote experience, contributing to 4-5 projects. Proficient in
@@ -100,7 +100,9 @@ const AboutSection = () => {
               Experience
             </TabBtn>
           </div>
-          <div className="mt-5">{Tab_Data.find((data) => data.id === tab).content}</div>
+          <div className="mt-5">
+            {Tab_Data.find((data) => data.id === tab).content}
+          </div>
         </div>
       </div>
     </section>

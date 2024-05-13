@@ -15,7 +15,7 @@ const HeroSection = () => {
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially
-                "ijaz Ahmad",
+                "Ijaz Ahmad",
                 1000, // wait 1s before replacing "Mice" with "Hamsters"
                 "Frontend Developer",
                 1000,
@@ -30,8 +30,8 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE]  text-base sm:text-lg mb-6 lg:text-xl ">
-            Dynamic React Next.js portfolio featuring projects with
-            polished design, seamless navigation, and captivating interactivity,
+            Dynamic React Next.js portfolio featuring projects with polished
+            design, seamless navigation, and captivating interactivity,
             showcasing top-tier frontend development skills.
           </p>
           <div>
@@ -39,7 +39,7 @@ const HeroSection = () => {
               Hire Me
             </button>
             <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-orange-500 via-emerald-500 to-green-600 hover:bg-gradient-to-br hover:from-green-500 hover:via-emerald-500 hover:to-orange-500 text-white mt-3">
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+              <span className="block bg-[#121212] hover:bg-slate-700 rounded-full px-5 py-2 text-[#ADB7BE]">
                 {" "}
                 Download CV
               </span>
@@ -52,7 +52,7 @@ const HeroSection = () => {
               src="/svg/myselfnew.png"
               alt="hero image"
               className=" rounded-[50px] "
-              priority={false} // {false} | {true}
+              priority={true} // {false} | {true}
               width={400}
               height={400}
             />
