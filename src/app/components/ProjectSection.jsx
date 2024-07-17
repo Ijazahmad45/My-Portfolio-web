@@ -8,7 +8,7 @@ const ProjectsData = [
   {
     id: 1,
     title: "DL Fork",
-    description: "Description 1",
+    description: "I collaborated with a brilliant team to develop a feature-rich website using React.js and Material UI. Our combined efforts resulted in a modern, responsive, and user-friendly interface, showcasing our expertise in front-end development and UI design.",
     image: "/svg/projects/DLfork.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Ijazahmad45/DL-Fork",
@@ -17,7 +17,7 @@ const ProjectsData = [
   {
     id: 2,
     title: "Golf Website",
-    description: "Description 2",
+    description: "I completed this dynamic and interactive website using HTML, CSS, and JavaScript, incorporating GSAP (GreenSock Animation Platform) for advanced animations. The result is a visually appealing and highly engaging user experience.",
     image: "/svg/projects/golfweb.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Ijazahmad45/projectGolf",
