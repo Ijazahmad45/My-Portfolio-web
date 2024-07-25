@@ -51,7 +51,7 @@ const HeroSection = () => {
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
             Dynamic React Next.js portfolio featuring projects with polished
-            design, seamless navigation, and captivating interactivity,
+            design, seamless navigation, responsive design and captivating interactivity,
             showcasing top-tier frontend development skills.
           </p>
           <div>
