@@ -6,7 +6,6 @@ import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import NavBar from "./components/NavBar";
 import ProjectSection from "./components/ProjectSection";
-import SwitchBtn from "./components/SwitchBtn"; 
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
