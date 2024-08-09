@@ -1,21 +1,48 @@
-import React from 'react'
-import Image from 'next/image'
+import React, { useEffect, useState } from "react";
+import Image from "next/image";
 const Footer = () => {
+  const [darkMode, setDarkMode] = useState(false);
+  useEffect(() => {
+    const handleSwitchValueChanged = () => {
+      const localStorageValue = localStorage.getItem("switchValue");
+      const parsedValue = localStorageValue === "true";
+      setDarkMode(parsedValue);
+    };
+
+    window.addEventListener("switchValueChanged", handleSwitchValueChanged);
+
+    handleSwitchValueChanged();
+
+    return () => {
+      window.removeEventListener(
+        "switchValueChanged",
+        handleSwitchValueChanged
+      );
+    };
+  }, []);
+
   return (
-<footer className='footer border z-10 border-t-[#33353F] border-l-transparent border-r-transparent border-b-transparent  text-white'>
-    <div className='container p-8 flex justify-between items-center'>
+    <footer
+      className={`${
+        darkMode
+          ? "footer mt-[4.5rem] bg-[#292727] border z-10 border-t-[#33353F] border-l-transparent border-r-transparent border-b-transparent  text-white"
+          : "footer mt-[4.5rem] bg-[#A5A765] border z-10 border-t-[#33353F] border-l-transparent border-r-transparent border-b-transparent  text-white"
+      }}`}
+    >
+      <div className="container p-1 flex justify-between items-center">
         <span>
-        <Image
+          <Image
             src="/svg/ijazlogo.png"
             alt="hero image"
             className="rounded-[20px]"
-            width={60}
-            height={60}
+            width={40}
+            height={40}
           />
         </span>
-        <p className='text-slate-600'>All Rights Reserved.</p>
-    </div>
-</footer>  )
-}
+        <p className={`${darkMode ? "text-slate-600" : "text-[#E3E3D7]"}`}>All Rights Reserved.</p>
+      </div>
+    </footer>
+  );
+};
 
-export default Footer
+export default Footer;
