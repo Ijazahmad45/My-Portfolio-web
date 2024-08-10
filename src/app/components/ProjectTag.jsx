@@ -23,11 +23,11 @@ const ProjectTag = ({ name, onClick, isSelected }) => {
   }, []);
 
   const buttonDark = isSelected
-    ? "text-orange-500 border-orange-500"
-    : "text-slate-600 border-slate-600 hover:bg-slate-900";
+    ? "text-[#4b7bff] border-[#4b7bff] bg-[#C5D9FA]"
+    : "text-[#c3d7fa80] border-[#c3d7fa80] hover:bg-slate-900";
   const buttonLight = isSelected
-    ? "text-[#4f5457] border-[#4f5457] bg-[#A5A764]"
-    : "text-[#93937d] border-[#93937d] hover:bg-slate-500";
+    ? "text-[#365587] border-[#365587] bg-[#C5D9FA]"
+    : "text-[#436aa893] border-[#436aa893] hover:bg-slate-500 hover:text-[#293859] hover:border-[#293859]";
 
   return (
     <button

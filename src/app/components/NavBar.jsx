@@ -46,7 +46,7 @@ const NavBar = () => {
   }, []);
   return (
     <nav
-      style={{ backgroundColor: darkMode ? "#2b2929" : "#9EA157" }}
+      style={{ backgroundColor: darkMode ? "#141434" : "#C2D7FB " }}
       className="fixed top-0 left-0 right-0 z-20 opacity-90"
     >
       <div className="flex flex-wrap items-center justify-between mx-auto px-4 py-2">
@@ -73,14 +73,14 @@ const NavBar = () => {
             {!navbarOpen ? (
               <button
                 onClick={() => setNavbarOpen(true)}
-                className="flex items-center px-3 py-2 border rounded border-slate-200 hover:text-white hover:border-white text-slate-200"
+                className="flex items-center px-3 py-2 border rounded border-[#2E4873] hover:text-[#2e4873a6] hover:border-[#2e4873a6] text-[#2E4873]"
               >
                 <Bars3Icon className="h-5 w-5" />
               </button>
             ) : (
               <button
                 onClick={() => setNavbarOpen(false)}
-                className="flex items-center px-3 py-2 border rounded border-slate-200 hover:text-white hover:border-white text-slate-200"
+                className="flex items-center px-3 py-2 border rounded border-[#2E4873] hover:text-[#2e4873a6] hover:border-[#2e4873a6] text-[#2E4873]"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

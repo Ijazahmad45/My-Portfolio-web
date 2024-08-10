@@ -25,8 +25,8 @@ const Footer = () => {
     <footer
       className={`${
         darkMode
-          ? "footer mt-[4.5rem] bg-[#292727] border z-10 border-t-[#33353F] border-l-transparent border-r-transparent border-b-transparent  text-white"
-          : "footer mt-[4.5rem] bg-[#A5A765] border z-10 border-t-[#33353F] border-l-transparent border-r-transparent border-b-transparent  text-white"
+          ? "footer mt-[4.5rem] bg-[#141432] border z-10 border-t-[#c3d7fa80] border-l-transparent border-r-transparent border-b-transparent  text-[#c3d7fa80]"
+          : "footer mt-[4.5rem] bg-[#C5D9FA] border z-10 border-t-[#436aa893] border-l-transparent border-r-transparent border-b-transparent  text-[#436aa893]"
       }}`}
     >
       <div className="container p-1 flex justify-between items-center">
@@ -39,7 +39,7 @@ const Footer = () => {
             height={40}
           />
         </span>
-        <p className={`${darkMode ? "text-slate-600" : "text-[#E3E3D7]"}`}>All Rights Reserved.</p>
+        <p className={`${darkMode ? "text-[#c3d7fa80]" : "text-[#436aa893]"}`}>All Rights Reserved.</p>
       </div>
     </footer>
   );

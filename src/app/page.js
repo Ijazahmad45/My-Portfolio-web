@@ -31,8 +31,8 @@ export default function Home() {
       <main
         className="flex min-h-screen flex-col bg-center bg-cover"
         style={{
-          backgroundColor: darkMode ? '#121212' : '#ebd7d6', 
-          backgroundImage: darkMode ? 'none' : 'url("/svg/layoutBg.jpg")', 
+          backgroundColor: darkMode ? '#0f0f23' : '#e3e8f2', 
+          // backgroundImage: darkMode ? 'url("/svg/starsIcon.svg")' : 'none', 
           transition: 'background-color 0.6s ease-in-out, background-image 0.6s ease-in-out',
         }}
       >

@@ -34,7 +34,7 @@ const AboutSection = () => {
     };
   }, []);
 
-  const dark = darkMode ? 'text-[#ADB7BE]' : 'text-[#5e5f3ba1]';
+  const dark = darkMode ? 'text-[#c3d7fa80]' : 'text-[#436aa893]';
 
   const Tab_Data = [
     {
@@ -96,8 +96,8 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className={`${
                 darkMode
-                  ? "mb-4 text-4xl sm:text-5xl lg:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-emerald-500 to-green-600"
-                  : "mb-4 text-4xl sm:text-5xl lg:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#A5A765] to-black"
+                  ? "mb-4 text-4xl sm:text-5xl lg:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#4b7bff] to-[#C5D9FA]"
+                  : "mb-4 text-4xl sm:text-5xl lg:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#365587] to-black "
               }`}>
             About Me
           </h2>

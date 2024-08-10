@@ -75,8 +75,8 @@ const ProjectSection = () => {
   };
 
   const dark = darkMode
-    ? "text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 via-orange-400 to-green-600"
-    : "text-transparent bg-clip-text bg-gradient-to-r from-[#A5A765] via-[#707145] to-black";
+    ? "text-transparent bg-clip-text bg-gradient-to-r from-[#4b7bff] to-[#C5D9FA]"
+    : "text-transparent bg-clip-text bg-gradient-to-r from-[#629bf7]  to-black";
 
   return (
     <section id="projects">

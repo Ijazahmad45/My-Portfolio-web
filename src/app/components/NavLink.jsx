@@ -24,8 +24,8 @@ const NavLink = ({ href, title }) => {
   }, []);
 
   const textStyle = darkMode
-    ? "text-[#dd9745] hover:text-[#85512e] text-lg font-bold transition duration-300 ease-in-out"
-    : "text-[#000000] hover:text-[#484933] text-lg font-bold transition duration-300 ease-in-out";
+    ? "text-[#6098F2] hover:text-[#A8C3FB] text-lg font-bold transition duration-300 ease-in-out"
+    : "text-[#2F4A76] hover:text-[#6098F2] text-lg font-bold transition duration-300 ease-in-out";
 
   return (
     <Link href={href} legacyBehavior>
