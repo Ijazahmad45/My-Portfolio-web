@@ -37,22 +37,37 @@ const ProjectSection = () => {
       title: "DL Fork",
       description:
         "I collaborated with a brilliant team to develop a feature-rich website using React.js and Material UI. Our combined efforts resulted in a modern, responsive, and user-friendly interface, showcasing our expertise in front-end development and UI design.",
-      image: darkMode ? "/svg/projects/DLforkDark.png" : "/svg/projects/DLforkLight.png",
+      image: darkMode
+        ? "/svg/projects/DLforkDark.png"
+        : "/svg/projects/DLforkLight.png",
       tag: ["All", "Web"],
       gitUrl: "https://github.com/Ijazahmad45/DL-Fork",
       previewUrl: "/",
     },
     {
       id: 2,
+      title: "Blinking Media",
+      description:
+        "This website features fully custom animations, crafted with Material UI and Next.js, and includes a night mode for an enhanced user experience. The design is tailored for specific screen sizes without responsive adaptations.",
+      image: darkMode
+        ? "/svg/projects/blinkDark.png"
+        : "/svg/projects/blinkLight.png",
+      tag: ["All", "Web"],
+      gitUrl: "https://github.com/Ijazahmad45/blinking-media",
+      previewUrl: "https://blinking-media-gray.vercel.app/",
+    },
+    {
+      id: 3,
       title: "Golf Website",
       description:
         "I completed this dynamic and interactive website using HTML, CSS, and JavaScript, incorporating GSAP (GreenSock Animation Platform) for advanced animations. The result is a visually appealing and highly engaging user experience.",
-      image: darkMode ? "/svg/projects/golfDark.png" : "/svg/projects/golfLight.png",
+      image: darkMode
+        ? "/svg/projects/golfDark.png"
+        : "/svg/projects/golfLight.png",
       tag: ["All", "Web"],
       gitUrl: "https://github.com/Ijazahmad45/projectGolf",
       previewUrl: "/",
     },
-    
   ];
 
   useEffect(() => {
