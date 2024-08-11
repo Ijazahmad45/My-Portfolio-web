@@ -2,6 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Custom Scrollbar for Dark Mode */
+.overflow-auto::-webkit-scrollbar {
+  width: 6px;
+}
+
+
+.overflow-auto::-webkit-scrollbar-thumb {
+  background-color: #4b7bff;
+  border-radius: 10px;
+}
+
+/* Custom Scrollbar for Light Mode */
+.overflow-auto.light-mode::-webkit-scrollbar {
+  width: 8px;
+}
+
+.overflow-auto.light-mode::-webkit-scrollbar-track {
+  background: #9fc4ff;
+}
+
+.overflow-auto.light-mode::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  border: 2px solid #9fc4ff;
+}
+
 /* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
